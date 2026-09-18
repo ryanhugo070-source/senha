@@ -14,12 +14,12 @@
     // ⏱️ TEMPO LIMITE (SLA) DEFINIDO POR TIPO DE SERVIÇO (em minutos)
     // Altere os valores abaixo conforme a necessidade da sua unidade:
     const TIPOS = { 
-        'P': { label: 'Pendência',   tempo: 10 }, // 10 min
+        'P': { label: 'Pendência',   tempo: 12 }, // 10 min
         'V': { label: 'Vacina',      tempo: 12 }, // 12 min
-        'R': { label: 'Resultado',   tempo: 5 },  // 5 min
-        'E': { label: 'Exames',      tempo: 20 }, // 20 min (Realiza Exames)
-        'A': { label: 'Agendamento', tempo: 15 }, // 15 min
-        'D': { label: 'Digital',     tempo: 10 }  // 10 min
+        'R': { label: 'Resultado',   tempo: 12 },  // 12 min
+        'E': { label: 'Exames',      tempo: 15 }, // 15 min (Realiza Exames)
+        'A': { label: 'Agendamento', tempo: 12 }, // 12 min
+        'D': { label: 'Digital',     tempo: 12 }  // 12 min
     };
 
     // Estado global dos dados e filtros
